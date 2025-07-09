@@ -1,7 +1,7 @@
 from Cryptodome.Cipher import AES
 import base64
-from Cryptodome import Random # to choose random key
-from Cryptodome.Util import Counter # divide data to blocks to encrypt it
+from Cryptodome import Random
+from Cryptodome.Util import Counter
 from os import path
 import os
 def dec(key,fullpath):
